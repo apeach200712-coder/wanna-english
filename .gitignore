@@ -7,6 +7,8 @@
 .tmp_device_crashlogs_latest/
 .tmp_runner_black.trace/
 .tmp_runner_*.xml
+flutter_run_log.txt
+ios/build/
 
 # Miscellaneous
 *.class
