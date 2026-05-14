@@ -1,0 +1,68 @@
+name: wanna_english
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.5
+  file_picker: ^11.0.2
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.2
+  uuid: ^4.5.3
+  pdfx: ^2.9.2
+  geolocator: ^13.0.2
+  http: ^1.2.2
+  provider: ^6.1.2
+  supabase_flutter: ^2.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/whitelogo_cropped.png
+  adaptive_icon_background: "#0F1115"
+  adaptive_icon_foreground: assets/whitelogo_cropped.png
+  background_color_ios: "#0F1115"
+  remove_alpha_ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/korean_schools.json
+    - assets/whitelogo.png
+    - assets/whitelogo_cropped.png
+    - assets/wanna_logo_white_tight.png
+
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/font/Pretendard-Thin.otf
+          weight: 100
+        - asset: assets/font/Pretendard-ExtraLight.otf
+          weight: 200
+        - asset: assets/font/Pretendard-Light.otf
+          weight: 300
+        - asset: assets/font/Pretendard-Regular.otf
+          weight: 400
+        - asset: assets/font/Pretendard-Medium.otf
+          weight: 500
+        - asset: assets/font/Pretendard-SemiBold.otf
+          weight: 600
+        - asset: assets/font/Pretendard-Bold.otf
+          weight: 700
+        - asset: assets/font/Pretendard-ExtraBold.otf
+          weight: 800
+        - asset: assets/font/Pretendard-Black.otf
+          weight: 900

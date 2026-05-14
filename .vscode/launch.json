@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "wanna_english (Chrome)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "chrome",
+      "args": ["--no-tree-shake-icons"]
+    },
+    {
+      "name": "wanna_english (iOS)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "deviceId": "ios"
+    }
+  ]
+}
